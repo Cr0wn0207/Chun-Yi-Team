@@ -21,12 +21,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
-.cursor/
 *.swp
 
-# Vercel
-.vercel/
-
-# Explicit environment files
-backend/.env
-frontend/.env
+# Cursor
+.cursor/
