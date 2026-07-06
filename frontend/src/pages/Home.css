@@ -119,7 +119,6 @@
 }
 
 .topic-card-visual--ceo {
-  height: clamp(148px, 15vw, 210px);
   background: var(--ceo-photo-bg);
 }
 
