@@ -191,21 +191,20 @@
 .ceo-message-photo-wrap {
   position: relative;
   overflow: hidden;
-  min-height: clamp(280px, 26vw, 360px);
+  height: clamp(280px, 26vw, 360px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  background: var(--ceo-photo-bg);
-  border: 1px solid var(--ceo-photo-border);
+  background: #a8adb5;
+  border: none;
   box-shadow: 0 8px 24px rgba(26, 39, 146, 0.05);
 }
 
 .ceo-message-photo {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
+  height: 200%;
+  object-fit: cover;
   object-position: center top;
 }
 

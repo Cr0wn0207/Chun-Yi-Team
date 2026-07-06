@@ -69,11 +69,13 @@ export default function Home() {
               >
                 <div className={`topic-card-visual${index === 0 ? ' topic-card-visual--ceo' : ''}`}>
                   {index === 0 ? (
-                    <img
-                      src={ceoPhoto}
-                      alt=""
-                      className="topic-card-ceo-photo"
-                    />
+                    <div className="topic-card-ceo-frame">
+                      <img
+                        src={ceoPhoto}
+                        alt=""
+                        className="topic-card-ceo-photo"
+                      />
+                    </div>
                   ) : (
                     <div
                       className="topic-card-bg"

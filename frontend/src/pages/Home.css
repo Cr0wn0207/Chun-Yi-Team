@@ -119,24 +119,28 @@
 }
 
 .topic-card-visual--ceo {
-  background: var(--ceo-photo-bg);
+  background: #a8adb5;
+}
+
+.topic-card-ceo-frame {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
 }
 
 .topic-card-ceo-photo {
-  position: absolute;
-  inset: 0;
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: 200%;
+  object-fit: cover;
   object-position: center top;
-  background: var(--ceo-photo-bg);
+  transform-origin: center top;
   transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   will-change: transform;
 }
 
 .topic-card:hover .topic-card-ceo-photo {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .topic-card-edge {
