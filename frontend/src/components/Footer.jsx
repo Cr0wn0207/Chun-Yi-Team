@@ -42,7 +42,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="footer-copy">
-            &copy; {new Date().getFullYear()} Chun Yi Technologies. {t('footer.rights')}
+            &copy; {new Date().getFullYear()} Chun Yi Team. {t('footer.rights')}
           </p>
           <div className="footer-legal">
             <a href="#">{t('footer.privacy')}</a>

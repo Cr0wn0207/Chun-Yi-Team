@@ -37,7 +37,7 @@ export function usePageMeta(pageKey, overrides = {}) {
     upsertMeta('og:title', title, 'property');
     upsertMeta('og:description', description, 'property');
     upsertMeta('og:type', 'website', 'property');
-    upsertMeta('og:site_name', 'Chun Yi Company', 'property');
+    upsertMeta('og:site_name', 'Chun Yi Team', 'property');
     upsertMeta('twitter:card', 'summary', 'name');
     upsertMeta('twitter:title', title);
     upsertMeta('twitter:description', description);

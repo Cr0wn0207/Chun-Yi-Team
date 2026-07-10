@@ -13,7 +13,7 @@ export default {
     slide: 'Diapositive',
   },
   splash: {
-    uttiSay: 'Bienvenue ! CHUN YI COMPANY !',
+    uttiSay: 'Bienvenue ! CHUN YI TEAM !',
   },
   lang: {
     ko: '한국어',
@@ -42,7 +42,7 @@ export default {
       cx: 'Expérience client',
     },
     about: {
-      label: 'Entreprise',
+      label: 'Équipe',
       message: 'Message du PDG',
       vision: 'Philosophie',
       overview: 'Aperçu',
@@ -60,7 +60,7 @@ export default {
       },
       {
         title: 'Une gamme complète\npour tous vos besoins IT',
-        subtitle: 'De la conseil au développement de systèmes, en passant par l\'infrastructure cloud et les solutions IA pour votre entreprise.',
+        subtitle: 'De la conseil au développement de systèmes, en passant par l\'infrastructure cloud et les solutions IA pour votre équipe.',
         link: '/services',
         linkText: 'EN SAVOIR PLUS',
       },
@@ -78,7 +78,7 @@ export default {
       { title: 'Message du PDG', desc: 'Vision et message de notre PDG', link: '/about#message' },
       { title: 'Stratégie technologique', desc: 'Façonner l\'avenir par l\'innovation', link: '/about#vision' },
       { title: 'Études de cas', desc: 'Histoires de projets réussis', link: '/services' },
-      { title: 'À propos de nous', desc: 'Présentation de Chun Yi Technologies', link: '/about' },
+      { title: 'À propos de nous', desc: 'Présentation de Chun Yi Team', link: '/about' },
     ],
     serviceTitle: 'PRODUCT | SERVICE',
     serviceSubtitle: 'Domaines d\'activité clés qui créent de nouvelles valeurs pour la société',
@@ -99,18 +99,18 @@ export default {
     newsViewAll: 'Liste des communiqués de presse',
   },
   about: {
-    heroTitle: 'COMPANY',
-    title: 'Entreprise',
+    heroTitle: 'TEAM',
+    title: 'Équipe',
     ceoMessage: 'Message du PDG',
     ceoTitle: 'Directeur général Yi Chun (伊春)',
-    ceoPhotoAlt: 'Yi Chun (伊春), Directeur général de Chun Yi Technologies',
+    ceoPhotoAlt: 'Yi Chun (伊春), Directeur général de Chun Yi Team',
     ceoDate: 'Avril 2026',
     philosophy: 'Philosophie',
     vision: 'Vision',
     mission: 'Mission',
-    overview: 'Aperçu de l\'entreprise',
+    overview: 'Aperçu de l\'équipe',
     history: 'Historique',
-    companyName: 'Nom de l\'entreprise',
+    companyName: 'Nom de l\'équipe',
     founded: 'Date de création',
     address: 'Adresse',
     phone: 'Téléphone',
@@ -119,17 +119,17 @@ export default {
     mapTitle: 'Localisation',
   },
   company: {
-    name: 'Chun Yi Technologies',
+    name: 'Chun Yi Team',
     tagline: 'Votre partenaire IT pour l\'avenir',
     vision: 'Nous créons de nouvelles valeurs fondées sur la confiance de nos clients et ouvrons un avenir meilleur grâce à l\'innovation technologique.',
     mission: 'Nous fournissons des services IT de bout en bout pour résoudre les défis de nos clients et créer de nouvelles valeurs.',
     address: '8-12 Honcho 6-chome, Shiki-shi, Saitama, Japon',
     ceoMessage:
-      'À l\'ère de la transformation numérique, les défis des entreprises deviennent de plus en plus complexes. Chez Chun Yi Technologies, la réussite de nos clients est notre priorité absolue.\n\nGrâce à une technologie de pointe et une expérience terrain approfondie, nous allons au-delà de la simple prestation IT pour devenir un véritable partenaire de croissance. Nous comprenons les enjeux de nos clients et proposons des solutions à valeur durable.\n\nPar l\'innovation continue, nous construirons un avenir meilleur avec nos clients.',
+      'À l\'ère de la transformation numérique, les défis des équipes deviennent de plus en plus complexes. Chez Chun Yi Team, la réussite de nos clients est notre priorité absolue.\n\nGrâce à une technologie de pointe et une expérience terrain approfondie, nous allons au-delà de la simple prestation IT pour devenir un véritable partenaire de croissance. Nous comprenons les enjeux de nos clients et proposons des solutions à valeur durable.\n\nPar l\'innovation continue, nous construirons un avenir meilleur avec nos clients.',
     values: ['Le client d\'abord', 'Innovation technologique', 'Confiance et transparence', 'Croissance durable'],
     history: [
-      { year: '2020', event: 'Fondation de Chun Yi Technologies' },
-      { year: '2021', event: 'Lancement de la division cloud ; premier client entreprise acquis' },
+      { year: '2020', event: 'Fondation de Chun Yi Team' },
+      { year: '2021', event: 'Lancement de la division cloud ; premier client équipe acquis' },
       { year: '2023', event: 'Expansion de l\'activité IA et données ; certification ISO 27001' },
       { year: '2025', event: 'Partenariat mondial établi ; équipe portée à plus de 50 personnes' },
       { year: '2026', event: 'Lancement de la solution intégrée de transformation numérique' },
@@ -138,7 +138,7 @@ export default {
   services: {
     heroTitle: 'SERVICE',
     pageTitle: 'Produits et services',
-    pageDesc: 'Services IT de bout en bout pour répondre aux besoins de votre entreprise.',
+    pageDesc: 'Services IT de bout en bout pour répondre aux besoins de votre équipe.',
     breadcrumb: 'Produits et services',
     items: {
       'digital-transformation': {
@@ -163,7 +163,7 @@ export default {
         title: 'DÉVELOPPEMENT DE SYSTÈMES',
         subtitle: 'Développement et intégration de systèmes sur mesure',
         description:
-          'Développement full-stack, du web et mobile aux systèmes d\'entreprise, intégration d\'API et microservices.',
+          'Développement full-stack, du web et mobile aux systèmes d\'équipe, intégration d\'API et microservices.',
       },
       'it-consulting': {
         title: 'CONSEIL IT',
@@ -191,12 +191,12 @@ export default {
     },
     items: {
       'news-1': {
-        title: 'Chun Yi Technologies étend ses solutions cloud-native',
+        title: 'Chun Yi Team étend ses solutions cloud-native',
         summary: 'Renforcement des services de transformation numérique centrés sur l\'IA et le cloud.',
       },
       'news-2': {
         title: 'Nouveau partenariat avec un fournisseur cloud mondial',
-        summary: 'Services cloud hybride pour les clients entreprises.',
+        summary: 'Services cloud hybride pour les clients équipes.',
       },
       'news-3': {
         title: 'Annonce du séminaire Transformation numérique 2026',
@@ -219,7 +219,7 @@ export default {
     name: 'Nom',
     email: 'E-mail',
     address: 'Adresse',
-    company: 'Entreprise',
+    company: 'Équipe',
     phone: 'Téléphone',
     inquiryType: 'Type de demande',
     inquiryDetail: 'Détails de la demande',
@@ -227,7 +227,7 @@ export default {
     selectPlaceholder: 'Veuillez sélectionner un type de demande',
     privacyAgree: 'J\'accepte la politique de confidentialité',
     privacyText:
-      'Chun Yi Technologies collecte et utilise des données personnelles pour traiter les demandes.\n\n1. Données : nom, e-mail, adresse, entreprise, téléphone, contenu\n2. Finalité : traitement des demandes et support client\n3. Conservation : 1 an après résolution\n\nSans consentement, la demande peut ne pas être traitée.',
+      'Chun Yi Team collecte et utilise des données personnelles pour traiter les demandes.\n\n1. Données : nom, e-mail, adresse, équipe, téléphone, contenu\n2. Finalité : traitement des demandes et support client\n3. Conservation : 1 an après résolution\n\nSans consentement, la demande peut ne pas être traitée.',
     submit: 'Vers la confirmation',
     submitting: 'Envoi en cours...',
     success: 'Votre demande a été envoyée avec succès.',
@@ -236,7 +236,7 @@ export default {
       firstName: 'Marie',
       email: 'example@chunyi-tech.com',
       address: '8-12 Honcho 6-chome, Shiki-shi, Saitama, Japon',
-      company: 'Chun Yi Technologies',
+      company: 'Chun Yi Team',
       phone1: '010',
       phone2: '1234',
       phone3: '5678',
@@ -252,7 +252,7 @@ export default {
   footer: {
     tagline: 'Votre partenaire IT pour l\'avenir',
     services: 'Services',
-    company: 'Entreprise',
+    company: 'Équipe',
     other: 'Autres',
     about: 'À propos de nous',
     philosophy: 'Philosophie',

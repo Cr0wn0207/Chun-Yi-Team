@@ -52,7 +52,7 @@ export default function AdminLogin() {
         <div className="admin-login__brand">
           <span className="admin-login__mark">CY</span>
           <div>
-            <p className="admin-login__eyebrow">CHUN YI COMPANY</p>
+            <p className="admin-login__eyebrow">CHUN YI TEAM</p>
             <h1 className="admin-login__title">{t('admin.login.title')}</h1>
           </div>
         </div>

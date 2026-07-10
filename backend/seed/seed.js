@@ -106,7 +106,7 @@ const news = [
 ];
 
 const company = {
-  name: 'Chun Yi Technologies',
+  name: 'Chun Yi Team',
   tagline: '미래를 함께 만들어가는 IT 파트너',
   vision:
     '고객과의 신뢰를 기반으로 새로운 가치를 창조하고, 기술 혁신을 통해 더 나은 미래를 열어갑니다.',
@@ -117,10 +117,10 @@ const company = {
   phone: '02-1234-5678',
   email: 'contact@chunyi-tech.com',
   ceoMessage:
-    '저희 Chun Yi Technologies는 고객의 비즈니스 성공을 최우선으로 생각합니다. 최신 기술과 풍부한 경험을 바탕으로, 고객과 함께 성장하는 진정한 파트너가 되겠습니다.',
+    '저희 Chun Yi Team은 고객의 비즈니스 성공을 최우선으로 생각합니다. 최신 기술과 풍부한 경험을 바탕으로, 고객과 함께 성장하는 진정한 파트너가 되겠습니다.',
   values: ['고객 중심', '기술 혁신', '신뢰와 투명성', '지속 가능한 성장'],
   history: [
-    { year: '2020', event: 'Chun Yi Technologies 설립' },
+    { year: '2020', event: 'Chun Yi Team 설립' },
     { year: '2021', event: '클라우드 사업부 신설, 첫 엔터프라이즈 고객 확보' },
     { year: '2023', event: 'AI·데이터 사업 확대, ISO 27001 인증 취득' },
     { year: '2025', event: '글로벌 파트너십 체결, 직원 50명 돌파' },

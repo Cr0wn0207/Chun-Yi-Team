@@ -11,7 +11,7 @@ export default function Logo({ variant = 'header' }) {
           </div>
           <p className="logo-wordmark">
             <span className="logo-name-line" aria-hidden />
-            CHUN YI COMPANY
+            CHUN YI TEAM
             <span className="logo-name-line" aria-hidden />
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function Logo({ variant = 'header' }) {
       </div>
       <p className="logo-wordmark">
         <span className="logo-name-line" aria-hidden />
-        CHUN YI COMPANY
+        CHUN YI TEAM
         <span className="logo-name-line" aria-hidden />
       </p>
     </div>

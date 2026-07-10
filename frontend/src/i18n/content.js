@@ -42,7 +42,7 @@ const NEWS_META = [
 ];
 
 const SEED_TITLE_KEYS = {
-  'Chun Yi Technologies, 클라우드 네이티브 솔루션 사업 확대': 'news-1',
+  'Chun Yi Team, 클라우드 네이티브 솔루션 사업 확대': 'news-1',
   '신규 파트너십 체결 — 글로벌 클라우드 프로바이더와 협력': 'news-2',
   '2026 디지털 트랜스포메이션 세미나 개최 안내': 'news-3',
   '자사 개발 DevOps 플랫폼 v2.0 출시': 'news-4',

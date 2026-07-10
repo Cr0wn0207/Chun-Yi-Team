@@ -34,7 +34,7 @@ export default function AdminLayout() {
       <header className="admin-header">
         <div className="admin-header__inner">
           <div>
-            <p className="admin-header__eyebrow">CHUN YI COMPANY</p>
+            <p className="admin-header__eyebrow">CHUN YI TEAM</p>
             <h1 className="admin-header__title">{t('admin.title')}</h1>
           </div>
           <div className="admin-header__actions">
