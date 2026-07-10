@@ -1,0 +1,13 @@
+export const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://chun-yi-company.vercel.app';
+
+export const OG_IMAGE_PATH = '/og-image.png';
+
+export function getOgImageUrl(origin = SITE_URL) {
+  return `${origin.replace(/\/$/, '')}${OG_IMAGE_PATH}`;
+}
+
+export const HOME_OG = {
+  title: 'IT Solutions Built for Real Business Growth | Chun Yi Team',
+  description:
+    'Chun Yi Team (CYTeam) delivers digital transformation, AI, cloud, system development, IT consulting, and customer experience—from our home in Shiki, Saitama, Japan. We pair hands-on engineering with long-term partnership to help teams grow. Explore our services and contact us today.',
+};

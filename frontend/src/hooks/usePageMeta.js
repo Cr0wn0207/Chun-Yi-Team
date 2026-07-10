@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import { getPageMeta } from '../i18n/meta';
+import { getOgImageUrl } from '../config/site';
 
 function upsertMeta(name, content, attr = 'name') {
   if (!content) return;
@@ -46,6 +47,7 @@ export function usePageMeta(pageKey, overrides = {}) {
     });
 
     const pageUrl = `${window.location.origin}${window.location.pathname}`;
+    const ogImageUrl = getOgImageUrl(window.location.origin);
 
     document.title = title;
     upsertMeta('description', description);
@@ -54,9 +56,12 @@ export function usePageMeta(pageKey, overrides = {}) {
     upsertMeta('og:type', 'website', 'property');
     upsertMeta('og:site_name', siteName, 'property');
     upsertMeta('og:url', pageUrl, 'property');
-    upsertMeta('twitter:card', 'summary', 'name');
+    upsertMeta('og:image', ogImageUrl, 'property');
+    upsertMeta('og:image:alt', siteName, 'property');
+    upsertMeta('twitter:card', 'summary_large_image', 'name');
     upsertMeta('twitter:title', title);
     upsertMeta('twitter:description', description);
+    upsertMeta('twitter:image', ogImageUrl);
     upsertLink('canonical', pageUrl);
 
     if (robots) {
