@@ -1,9 +1,10 @@
 export const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://chun-yi-team.vercel.app';
 
-export const OG_IMAGE_PATH = '/og-image.png';
+export const OG_IMAGE_PATH = '/og-image.png?v=2';
 
 export function getOgImageUrl(origin = SITE_URL) {
-  return `${origin.replace(/\/$/, '')}${OG_IMAGE_PATH}`;
+  const base = origin.replace(/\/$/, '');
+  return `${base}${OG_IMAGE_PATH}`;
 }
 
 export const HOME_OG = {
